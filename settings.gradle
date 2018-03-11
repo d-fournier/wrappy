@@ -1,0 +1,7 @@
+include ':wrappy-annotations'
+include ':wrappy-rxjava2'
+include ':wrappy-compiler'
+include ':sample'
+
+rootProject.name = 'wrappy-parent'
+

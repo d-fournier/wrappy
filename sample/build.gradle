@@ -1,0 +1,12 @@
+apply plugin: 'java'
+apply plugin: "net.ltgt.apt"
+apply plugin: "net.ltgt.apt-idea"
+
+dependencies {
+
+    compileOnly "me.dfournier:wrappy-annotations:1.0-SNAPSHOT"
+    annotationProcessor "me.dfournier:wrappy-compiler:1.0-SNAPSHOT"
+    annotationProcessor "me.dfournier:wrappy-rxjava2:1.0-SNAPSHOT"
+    compile "io.reactivex.rxjava2:rxjava:2.1.10"
+
+}
